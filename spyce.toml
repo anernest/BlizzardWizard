@@ -1,0 +1,19 @@
+
+# Configuration file for Spyce
+[SPHINX.settings]
+# Default configuration parameters for Sphinx's conf.py
+PROJECT_NAME='ShortProjectName'
+PROJECT_TITLE='Long Project Title'
+COPYRIGHT_YEAR='2022'
+ORGANIZATION='Name of the Organization'
+AUTHOR='First Author'
+OTHER_AUTHORS='\and Second Author \and Third Author \and ETC'
+VERSION='0.0.0'
+
+[SPHINX.downloads]
+# Files to be downloaded to the "downloads" directory. This directory is ignored by git.
+'RATESLogo.png' = 'https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/src/assets/RATESLogo.png'
+'RGVFloodLogo.png' = 'https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/src/assets/RGVFloodLogo.png'
+'layout.html' = 'https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/src/_templates/layout.html'
+'bibliography.rst' = 'https://raw.githubusercontent.com/RATESResearch/bibliography/main/bibliography.rst'
+'references.bib' = 'https://raw.githubusercontent.com/RATESResearch/bibliography/main/references.bib'

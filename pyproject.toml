@@ -1,0 +1,25 @@
+[build-system]
+requires = [ "poetry-core>=1.0.0",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "blizzardwizard"
+version = "0.1.0"
+description = "Blizzard Wizard"
+authors = [ "Andrew Ernest <anernest@usa.net>",]
+license = "MIT"
+
+[tool.spyce]
+copyright_year = "2022"
+organization = "Ernest Family"
+document_id = "0.0.1"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.dependencies.spyce]
+git = "https://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@github.com/RATESResearch/Spyce.git"
+rev = "main"
